@@ -1,7 +1,9 @@
 ---
 layout: page
-title: My Athletic Background
-permalink: /athletic-background/
+title: Athletic Background
+permalink: /athletic/
+---
+
 
 ---
 
