@@ -2,6 +2,7 @@
 layout: post
 title: "Lab 6 - Data Modeling: Online Grocery Store Application"
 date: 2026-02-24 10:00:00 -0600
+author: James Randle Jr
 ---
 
 In Lab 6, we planned the data model for an online grocery shopping app using user stories, an ER diagram, and a SQL schema.
@@ -33,4 +34,12 @@ I used 4 entities (Customer, Item, Order, OrderItem) with 1-to-many relationship
 Physical model with tables, data types, PKs, and FKs:
 
 ![My Alt Text]({{ '/assets/images/Online_Grocery_Shop_Application-2026-02-24_09-33.png' | relative_url }})
+
+The schema has clear primary and foreign key relations (Order references Customer, OrderItem references Order and Item).
+
+
+### Reflection
+This lab was more about learning how to create tables and define relationships than actually implementing a full online grocery store application. The hardest part for me was forming the tables themselves in Redgate Data Modeler and figuring out how to get certain columns to become foreign keys and connect properly. The web interface was confusing at first (missing dropdowns, self-referencing loops, no obvious way to choose the parent table), and I spent a lot of time stuck until Dr. Goadrich helped in class. Once I got the drag-to-connect and References section working correctly, the lines appeared and the relationships linked up as intended.
+
+I'm satisfied with the final SQL schema. It captures the one-to-many relationships cleanly, and the OrderItem junction table handles the many-to-many between orders and items without issues. This lab showed me how important it is to get the structure right before coding, and how much the tool can slow you down when you're still learning.
 
