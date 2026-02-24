@@ -20,3 +20,9 @@ I assumed:
 3. As a registered customer, I want to start an order by selecting items, specifying quantity, special instructions, and substitution permission so that I can build my shopping list. (Size: 5 points, depends on registration and items)
 4. As a registered customer, I want to choose a pickup or delivery time/date when finalizing my order so that the store knows when to prepare it. (Size: 3 points, depends on order started)
 5. As a customer, I want to view my finalized order details (items, total, time, status) so that I can confirm what I ordered and when it's ready. (Size: 2 points, depends on finalizing order)
+
+
+### Entity-Relationship Diagram (LucidChart)
+Logical/conceptual model showing entities and crows-foot relationships:
+
+![My Alt Text]({{ '/assets/images/Grocery Store ERD Chart - James Randle Jr.png' | relative_url }})
