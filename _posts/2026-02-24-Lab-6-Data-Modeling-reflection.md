@@ -28,3 +28,9 @@ Logical/conceptual model showing entities and crows-foot relationships:
 ![My Alt Text]({{ '/assets/images/Grocery Store ERD Chart - James Randle Jr.png' | relative_url }})
 
 I used 4 entities (Customer, Item, Order, OrderItem) with 1-to-many relationships, matching the Boats example style from Dr. Goadrich.
+
+### SQL Schema (Redgate Data Modeler)
+Physical model with tables, data types, PKs, and FKs:
+
+![My Alt Text]({{ '/assets/images/Online_Grocery_Shop_Application-2026-02-24_09-33.png' | relative_url }})
+
