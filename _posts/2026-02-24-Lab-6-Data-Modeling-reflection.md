@@ -26,3 +26,5 @@ I assumed:
 Logical/conceptual model showing entities and crows-foot relationships:
 
 ![My Alt Text]({{ '/assets/images/Grocery Store ERD Chart - James Randle Jr.png' | relative_url }})
+
+I used 4 entities (Customer, Item, Order, OrderItem) with 1-to-many relationships, matching the Boats example style from Dr. Goadrich.
